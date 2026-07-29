@@ -1,0 +1,23 @@
+let num1= 20;
+let num2=30;
+let Addition = num1 + num2 ;
+let Subtraction = num1 - num2 ;
+let Multiplication = num1 * num2 ;
+let Division = num1/ num2 ;
+let Modulus = num1% num2 ;
+console.log("Addition :", Addition);
+console.log("Subtraction :", Subtraction);
+console.log("Multiplication :", Multiplication);
+console.log("Division :", Division.toFixed(2)); //toFixed string return kore .jodi number e rakhte cai tahole [Number(Division.toFixed(2));]
+console.log("Division :",Number(Division.toFixed(2)));
+console.log("Modulus :", Modulus);
+let number1= 300;
+let number2 = 500;
+console.log("number1 :",number1);
+console.log("number2 :",number2);
+console.log();
+console.log("Addition :", number1+number2);
+console.log("Subtraction :", number1-number2);
+console.log("Multiplication :", number1*number2);
+console.log("Division :", number1/number2);
+console.log("Modulus :", number2 % number);

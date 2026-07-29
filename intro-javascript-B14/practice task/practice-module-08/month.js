@@ -1,0 +1,16 @@
+let month = 1;
+if (month === 12 || month === 1|| month === 2){
+    console.log(" It is Winter");
+}
+else if(month === 3 || month === 4|| month === 5){
+    console.log("Summer");
+}
+else if(month === 6 || month === 7|| month === 8 || month === 9){
+    console.log("Monsoon");
+}
+else if( month === 10|| month === 11){
+    console.log("Autumn");
+}
+else{
+    console.log("Invalid Month");
+}
