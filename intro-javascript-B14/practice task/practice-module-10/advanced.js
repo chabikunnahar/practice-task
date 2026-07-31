@@ -48,9 +48,9 @@ console.log(maxValue);
 //4. Flatten a nested array (array containing arrays) into a single flat array.
 
 //5. Rotate an array left by one position (first item moves to the end). Log the result.
- const arr = [
-    [2,3],[4,7],[3,6]
- ];
+ const arr = 
+    // [2,3],[4,7],[3,6]
+    [2,[3,4],6,5,[9[7,8]]];
 const flatArray = [ ];
 for(let i =0;i<arr.length;i++){
     // console.log(arr[i]);
