@@ -1,4 +1,6 @@
 // filter numbers greater than a value
+
+// without function
 const numbers = [12, 45, 7, 89, 23, 56, 91, 34];
 const num = 45;
 let filterArray = [];
